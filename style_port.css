@@ -39,3 +39,15 @@ span {
 nav {
   text-align: center;
 }
+
+blockquote p {
+  box-shadow: 20px 12px 15px 1px rgb(192,192,192);
+  padding: 30px;
+
+}
+
+img {
+  float: right;
+  padding-top: 1px;
+  margin-top: 1px;
+}
