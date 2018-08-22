@@ -1,5 +1,5 @@
 html {
-  background-color: rgb(188,143,143);
+  /* background-color: rgb(188,143,143); */
   border-style: double;
   border-width: 13px;
   border-color: white;
@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  background-color: rgb(188,143,143);
   color: white;
   font-size: 16px;
   font-family: ariel;
