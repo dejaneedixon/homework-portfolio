@@ -1,12 +1,12 @@
 html {
   /* background-color: rgb(188,143,143); */
-  border-style: double;
+  /* border-style: double;
   border-width: 13px;
   border-color: white;
   margin-top: 60px;
   margin-bottom: 60px;
   margin-right: 50px;
-  margin-left: 50px;
+  margin-left: 50px; */
 }
 
 body {
@@ -14,7 +14,14 @@ body {
   color: white;
   font-size: 16px;
   font-family: ariel;
-  padding: 10px;
+  padding: 50px 20px 150px 20px;
+  border-style: double;
+  border-width: 13px;
+  border-color: white;
+  margin-top: 85px;
+  margin-bottom: 85px;
+  margin-right: 50px;
+  margin-left: 50px;
 
 }
 
@@ -41,13 +48,12 @@ nav {
 }
 
 blockquote p {
-  box-shadow: 20px 12px 15px 1px rgb(192,192,192);
-  padding: 30px;
+  box-shadow: 60px -16px rgb(192,192,192);
+  padding: 30px 15px 30px 15px;
 
 }
 
 img {
   float: right;
-  padding-top: 1px;
-  margin-top: 1px;
+
 }
