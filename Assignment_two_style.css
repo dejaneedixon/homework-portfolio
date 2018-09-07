@@ -1,0 +1,152 @@
+.container {
+  max-width: 100%;
+ overflow: hidden;
+}
+
+body {
+  color: #f0efef;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+.logo {
+  margin-right: 55%;
+  margin-top: 4%;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+header {
+  height: 700px;
+  background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+  padding-top: 32px;
+}
+
+header .logo {
+  color: white;
+}
+
+header h2 {
+  font-size: 48px;
+  text-align: center;
+  color: #fff;
+  margin-top: 10%;
+  margin-left: 0%;
+  margin-bottom: 17%;
+  font-weight: 600;
+}
+
+.button-one {
+font-weight: 800;
+width: 280px;
+font-size: 28px;
+margin-left: 450px;
+background-color: #f9e42e;
+color: #033048;
+border-radius: 5px;
+padding: 12px 0;
+}
+
+#benefits {
+  padding: 100px 0 80px;
+}
+
+.body-title {
+  font-weight: 600;
+  font-size: 40px;
+  color: #033048;
+  margin-bottom: 5%;
+}
+
+.body-info {
+  font-weight: 100;
+  font-size: 26px;
+  color: #606161;
+  width: 400px;
+}
+
+#benefits ul {
+  list-style: disc;
+  margin: 25px 0 25px 0;
+  font-weight: 100;
+  font-size: 26px;
+  color: #606161;
+  width: 600px;
+  margin-left: 100px;
+}
+
+#testimony {
+  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+  padding: 80px 0 80px;
+  color: #fff;
+}
+
+.blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.blockquote span {
+  font-weight: 600;
+  display: block;
+  font-style: normal;
+}
+aside {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center
+}
+
+.sign-up {
+  background-color: #f9e42e;
+  padding: 30px 0 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.button-two {
+  display: block;
+  width: 280px;
+  font-size: 24px;
+  font-weight: 800;
+  background-color: #033048;
+  color: white;
+  padding: 12px 0;
+  border-radius: 5px;
+}
+
+footer {
+  background: #121212;
+  padding: 100px 0 100px;
+  text-align: center;
+}
+.title {
+  color: #f9e42e;
+  margin-bottom: 68px;
+  font-weight: 800;
+  font-size: 48px;
+}
+.social ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+  text-align: center;
+}
+
+.social-images {
+  background-image: url(images/twitter.png);
+  background-image: url(images/facebook.png);
+}
+.copyright {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 200;
+  text-align: center;
+}
