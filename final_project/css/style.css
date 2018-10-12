@@ -1,0 +1,61 @@
+@media (min-width: 320px) {
+  .h1, .gift-guide-title {
+    font-size: 1.5em;
+    font-family: "Freight-Big-Medium", Georgia, serif;
+    font-weight: normal;
+    margin: 5% -162% 9% 11%;
+    line-height: normal;
+    text-align: center;
+  }
+  .img-responsive {
+  height: 235px;
+  width: 1307px;
+  padding: 0px 0px 0px 0px;
+  margin: -9px 19px -77px -11px;
+}
+
+
+  }
+}
+#giftguide_image {
+  height: 40px;
+  width: 50px;
+  margin-left: 0%;
+  margin-right: 25%;
+}
+
+@media (min-width: 768px) {
+.h1, .gift-guide-title {
+  font-size: 22px;
+  font-family: "Freight-Big-Medium", Georgia, serif;
+  font-weight: normal;
+  margin: 5% 16% 5% 30%;
+  line-height: normal;
+  }
+  #giftguide_image {
+    height: 40px;
+    width: 50px;
+    margin-left: 0%;
+    margin-right: 25%;
+  }
+}
+
+@media (min-width: 1224px) {
+  .h1, .gift-guide-title {
+    font-size: 35px;
+    font-family: "Freight-Big-Medium", Georgia, serif;
+    font-weight: normal;
+    margin: 5% 30%;
+    line-height: normal;
+    }
+    #giftguide_image {
+      margin-left: 15%;
+      margin-right: 25%;
+}
+.img-responsive {
+height: 235px;
+width: 1307px;
+padding: 0px 0px 0px 0px;
+margin: -9px 19px -77px -11px;
+  }
+}
