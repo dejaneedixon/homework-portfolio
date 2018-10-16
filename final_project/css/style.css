@@ -7,55 +7,251 @@
     line-height: normal;
     text-align: center;
   }
-  .img-responsive {
-  height: 235px;
-  width: 1307px;
-  padding: 0px 0px 0px 0px;
-  margin: -9px 19px -77px -11px;
-}
 
-
+  .belly_band_banner {
+    height: 235px;
+    width: 1307px;
+    padding: 0px 0px 0px 0px;
+    margin: -9px 19px -77px -11px;
   }
-}
-#giftguide_image {
-  height: 40px;
-  width: 50px;
-  margin-left: 0%;
-  margin-right: 25%;
-}
 
-@media (min-width: 768px) {
-.h1, .gift-guide-title {
-  font-size: 22px;
-  font-family: "Freight-Big-Medium", Georgia, serif;
-  font-weight: normal;
-  margin: 5% 16% 5% 30%;
-  line-height: normal;
-  }
   #giftguide_image {
-    height: 40px;
-    width: 50px;
-    margin-left: 0%;
+    margin-left: 53%;
     margin-right: 25%;
+    margin-top: 35%;
+  }
+
+  #giftboxes {
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+  }
+
+  #box-blurb {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    color: red;
+  }
+
+  #section-box {
+    margin-left: 21%;
+  }
+
+  .giftbox-img {
+    margin-right: -5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .block-content {
+    display: -webkit-box !important;
+    margin-right: -83px !important;
+  }
+
+  img.zoom {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+  }
+
+  .transition {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left:0 !important;
+  padding: 0;
+  float:left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+.social-network a.icoInstagram:hover {
+  background-color: pink;
+}
+.social-network a.icoFacebook:hover {
+  background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+  background-color:lightblue;
+}
+.social-network a.icoPinterest:hover {
+  background-color:#BD3518;
+}
+.social-circle li a {
+  display:inline-block;
+  position:relative;
+  margin:0 auto 0 auto;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  border-radius:50%;
+  text-align:center;
+  width: 50px;
+  height: 50px;
+  font-size:20px;
+  background-color: #1f2027;
+}
+.social-circle li i {
+  margin:0;
+  line-height:50px;
+  text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 3.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.8s;
+}
+.social-circle i {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+}
+
+@media only screen and (min-width: 768px) {
+  .h1, .gift-guide-title {
+    font-size: 22px;
+    font-family: "Freight-Big-Medium", Georgia, serif;
+    font-weight: normal;
+    margin: 5% 16% 5% 30%;
+    line-height: normal;
+  }
+
+  #giftguide_image {
+    margin-left: 26%;
+    margin-right: 25%;
+    margin-top: 15%;
+  }
+
+  .giftbox-img {
+    margin-right: -5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
   }
 }
 
-@media (min-width: 1224px) {
+@media only screen and (min-width: 1224px) {
   .h1, .gift-guide-title {
     font-size: 35px;
     font-family: "Freight-Big-Medium", Georgia, serif;
     font-weight: normal;
     margin: 5% 30%;
     line-height: normal;
-    }
-    #giftguide_image {
-      margin-left: 15%;
-      margin-right: 25%;
-}
-.img-responsive {
-height: 235px;
-width: 1307px;
-padding: 0px 0px 0px 0px;
-margin: -9px 19px -77px -11px;
   }
+
+  #giftguide_image {
+    margin-left: 10%;
+    margin-right: 25%;
+    margin-top: 7%;
+  }
+
+  .belly_band_banner {
+    height: 235px;
+    width: 1310px;
+    padding: 0px 0px 0px 0px;
+    margin: 29px 16px -88px -99px;
+  }
+
+  #section-box {
+    margin-left: 2%;
+  }
+
+  .giftbox-img {
+    margin-right: -5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  img.zoom {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+  }
+
+  .transition {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+  float:left;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+.social-network a.icoInstagram:hover {
+	background-color: pink;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:lightblue;
+}
+.social-network a.icoPinterest:hover {
+	background-color:#BD3518;
+}
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+  background-color: #1f2027;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 3.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.8s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
 }
